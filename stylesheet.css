@@ -1,0 +1,100 @@
+.wordlinks{
+  float:right;
+  border-spacing:2px;
+  padding: 2px;
+  padding-right: 6px;
+  margin: 2px;
+}
+
+a:link {
+  text-decoration: none;
+  font:arial,sans-serif;
+  font-size:13px;
+  color:black
+}
+
+a:hover{
+  text-decoration:underline;
+}
+
+.signin{
+  float:right;
+  background-color:#4285f4;
+  height:30px;
+  width:71px;
+  margin:auto;
+  text-align:center;
+  border-radius: 3px;
+}
+
+.google{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     width: 272px;
+     height: 92px;
+     margin-top: -80px; /* Half the height */
+     margin-left: -136px; /* Half the width */
+}
+
+.signintext{
+  color:white;
+  text-align:center;
+  font:sans-serif;
+  font-weight: bold;
+  line-height: 0.35;
+  font-size:13px;
+}
+
+input{
+  width:272px;
+}
+
+.searchbuttons{
+  text-align: center;
+}
+
+.searchbutton1{
+  float:left;
+  background-color:gray;
+  height:30px;
+  width:132px;
+  margin:auto;
+  border-radius: 3px;
+}
+
+.searchbutton2{
+  float:right;
+  background-color:gray;
+  height:30px;
+  width:132px;
+  margin:auto;
+  border-radius: 3px;
+}
+
+.searchbuttontext{
+  color:white;
+  text-align:center;
+  font:sans-serif;
+  font-weight: bold;
+  line-height: 0.34;
+  font-size:11px;
+}
+
+.searchbutton1:hover{
+  float:left;
+  background-color:blue;
+  height:33px;
+  width:135px;
+  margin:auto;
+  border-radius: 4px;
+}
+
+.searchbutton2:hover{
+  float:right;
+  background-color:blue;
+  height:33px;
+  width:135px;
+  margin:auto;
+  border-radius: 4px;
+}
